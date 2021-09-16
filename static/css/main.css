@@ -1,0 +1,199 @@
+@import '../font/flaticon.css';
+
+a {
+    text-decoration: none;
+    transition: all ease-in-out 0.3s;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+.side-menu {
+    background-color: #fcfcfc;
+}
+
+.steps-list {
+    padding: 15px;
+}
+
+.steps-list li {
+    margin-bottom: 20px;
+}
+
+.steps-list li a {
+    color: #000;
+    font-weight: 700;
+}
+
+.steps-list li.active a {
+    color: #3A86FF;
+}
+
+.steps-list li.active a span {
+    background-color: #3A86FF;
+    color: #fff;
+}
+
+.steps-list li span {
+    border: 2px solid #3A86FF;
+    margin-right: 5px;
+    background-color: #fff;
+    color: #3A86FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+.main-title {
+    display: flex;
+    align-items: center;
+}
+
+.main-title span {
+    color: #B3B3B3;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.main-title h3 {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+.progress {
+    width: 200px;
+    border-radius: 50px;
+}
+
+@media (max-width: 767.98px) {
+    .progress {
+        width: 100%;
+    }
+}
+
+.progress .progress-bar {
+    border-radius: 100px;
+}
+
+.progress-percentage {
+    color: #FFBE0B;
+    font-weight: 700;
+    margin-left: 4px;
+}
+
+.user-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #FFBE0B;
+}
+
+.user-img-container {
+    display: inline-block;
+    padding: 3px;
+    border: 2px solid #3A86FF;
+    border-radius: 50%;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    opacity: 0;
+    cursor: inherit;
+    display: block;
+}
+
+.btn-primary {
+    background-color: #3A86FF;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    background-color: #2679ff;
+}
+
+.input-container {
+    position: relative;
+}
+
+.input-container.icon-input input, .input-container.icon-input select {
+    padding-left: 35px;
+}
+
+.input-container.icon-input textarea {
+    padding-left: 35px;
+}
+
+.input-container.icon-input i {
+    position: absolute;
+    left: 10px;
+    top: 9px;
+}
+
+.input-container .required {
+    color: #FA584F;
+    position: absolute;
+    right: 5px;
+    top: 9px;
+}
+
+.label span {
+    color: #FA584F;
+}
+
+.form-select {
+    background-position: right 1rem center;
+}
+
+.action-btn button {
+    background-color: transparent;
+    border: 0;
+}
+
+.action-btn .edit-btn i {
+    color: #33B333;
+}
+
+.action-btn .delete-btn i {
+    color: #FA584F;
+}
+
+.lvl-card {
+    margin-bottom: 1rem;
+    background-color: #FFFAED;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.iti--allow-dropdown {
+    display: block;
+}
+
+.iti--allow-dropdown input {
+    padding-left: 100px !important;
+}
+
+#phone-error-msg {
+    color: #FA584F;
+}

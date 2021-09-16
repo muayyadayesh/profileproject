@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?e5a173401c2b8d5e6f1de1165b9bfff3") format("truetype"),
+url("./flaticon.woff?e5a173401c2b8d5e6f1de1165b9bfff3") format("woff"),
+url("./flaticon.woff2?e5a173401c2b8d5e6f1de1165b9bfff3") format("woff2"),
+url("./flaticon.eot?e5a173401c2b8d5e6f1de1165b9bfff3#iefix") format("embedded-opentype"),
+url("./flaticon.svg?e5a173401c2b8d5e6f1de1165b9bfff3#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-edit:before {
+    content: "\f101";
+}
+.flaticon-linkedin:before {
+    content: "\f102";
+}
+.flaticon-gender:before {
+    content: "\f103";
+}
+.flaticon-calendar:before {
+    content: "\f104";
+}
+.flaticon-user:before {
+    content: "\f105";
+}
+.flaticon-placeholder:before {
+    content: "\f106";
+}
+.flaticon-pen:before {
+    content: "\f107";
+}
+.flaticon-flag:before {
+    content: "\f108";
+}
+.flaticon-global:before {
+    content: "\f109";
+}
+.flaticon-delete:before {
+    content: "\f10a";
+}
